@@ -13,7 +13,7 @@ const FixturesHome = () => {
         const axiosConfig = {
           headers: {
             'x-rapidapi-host': 'v3.football.api-sports.io',
-            'x-rapidapi-key': '9f0f05cf1d2067d0c4d54561d75637fc', 
+            'x-rapidapi-key': 'db0b91f48bacba4e79c60b58899d4799', 
           },
         };
         const response = await axios.get(apiUrl, axiosConfig);
